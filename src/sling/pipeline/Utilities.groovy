@@ -6,6 +6,6 @@ class Utilities implements Serializable {
     steps.sh "echo 'Hello world'"
 
     //Running Pwd command.
-    steps.sh "echo 'pwd'"
+    steps.sh "pwd"
   }
 }
