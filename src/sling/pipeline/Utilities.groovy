@@ -2,6 +2,8 @@
 class Utilities implements Serializable {
   def steps
   Utilities(steps) {this.steps = steps}
+
+
   def sampleUtility() {
     steps.sh "echo 'Hello world'"
 
@@ -11,8 +13,7 @@ class Utilities implements Serializable {
 
 
   def sampleNewUtility() {
-    println("sampleNewUtility/in")
-    println(" App version is : ${steps.env}")
+    steps.sh "echo 'App version is : ${steps.env}' ")
   }
 
 }
