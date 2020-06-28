@@ -8,4 +8,10 @@ class Utilities implements Serializable {
     //Running Pwd command.
     steps.sh "pwd"
   }
+
+
+  def sampleNewUtility() {
+    steps.sh "${steps.env.APP_VERSION}"
+  }
+
 }
