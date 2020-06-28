@@ -11,7 +11,7 @@ class Utilities implements Serializable {
 
 
   def sampleNewUtility() {
-    println(" App version is : ${steps.env.APP_VERSION}")
+    echo " App version is : ${steps.env.APP_VERSION}"
   }
 
 }
