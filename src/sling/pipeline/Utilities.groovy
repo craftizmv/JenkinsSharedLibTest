@@ -13,7 +13,9 @@ class Utilities implements Serializable {
 
 
   def sampleNewUtility() {
-    steps.sh 'echo "App version is : ${env.APP_VERSION}"'
+    steps.sh 'echo "App version is : ${APP_VERSION}"'
+
+    steps.sh 'echo "temp param is : ${Temp}"'
   }
 
 }
