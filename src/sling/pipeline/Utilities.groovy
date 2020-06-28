@@ -13,7 +13,7 @@ class Utilities implements Serializable {
 
 
   def sampleNewUtility() {
-    steps.sh "echo 'App version is : ${steps.env}' ")
+    steps.sh 'echo "App version is : ${steps.env}"')
   }
 
 }
