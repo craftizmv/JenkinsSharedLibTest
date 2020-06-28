@@ -15,7 +15,7 @@ class Utilities implements Serializable {
   def sampleNewUtility() {
 
     //Looks like println does not work in case of this kind of class.
-    println("This is using println method")
+    println("This is using println method inside sampleNewUtility")
 
     steps.sh 'echo "App version is : ${APP_VERSION}"'
 
