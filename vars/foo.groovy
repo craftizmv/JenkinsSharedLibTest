@@ -1,5 +1,9 @@
 
 
+
+def teamMap = ['': "AirTv Mini", age: 42, city: "New York"]
+
+
 def info() {
 
     println("This is inside foo info")

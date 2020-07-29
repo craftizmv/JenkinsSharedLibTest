@@ -1,7 +1,7 @@
 def call(int buildNumber) {
   if (buildNumber % 2 == 0) {
-    pipeline {
-      agent any
+    // pipeline {
+    //   agent any
       stages {
         stage('Even Stage') {
           steps {
@@ -9,10 +9,10 @@ def call(int buildNumber) {
           }
         }
       }
-    }
+    // }
   } else {
-    pipeline {
-      agent any
+    // pipeline {
+    //   agent any
       stages {
         stage('Odd Stage') {
           steps {
@@ -20,6 +20,6 @@ def call(int buildNumber) {
           }
         }
       }
-    }
+    // }
   }
 }
