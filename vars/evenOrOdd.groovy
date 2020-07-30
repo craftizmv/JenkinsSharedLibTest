@@ -8,6 +8,12 @@ def call(int buildNumber) {
             echo "The build number is even"
           // }
         }
+
+        stage('Other Stage') {
+          // steps {
+            echo "The build number is even"
+          // }
+        }
       // }
     // }
   } else {
